@@ -1,0 +1,24 @@
+[71.018934250] 2019-09-06 23:06:22,484 - INFO - launcher: Starting sanity checks
+[72.018623352] 2019-09-06 23:06:22,485 - INFO - launcher: Checking for Python 3.5+
+[72.018623352] 2019-09-06 23:06:22,485 - INFO - launcher: Checking console encoding
+[72.018623352] 2019-09-06 23:06:22,485 - INFO - launcher: Setting console encoding to UTF-8
+[73.016643524] 2019-09-06 23:06:22,486 - INFO - launcher: Ensuring we're in the right environment
+[75.017452240] 2019-09-06 23:06:22,488 - INFO - launcher: Adding local bins/ folder to path
+[113.150835037] 2019-09-06 23:06:22,526 - INFO - launcher: Required checks passed.
+[114.027261734] 2019-09-06 23:06:22,527 - INFO - launcher: Optional checks passed.
+[114.027261734] 2019-09-06 23:06:22,527 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[222.178459167] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "run.py", line 367, in main
+    from musicbot import MusicBot
+  File "E:\Users\Visu\Desktop\music bot\MusicBot\musicbot\__init__.py", line 7, in <module>
+    from .utils import _get_variable
+  File "E:\Users\Visu\Desktop\music bot\MusicBot\musicbot\utils.py", line 3, in <module>
+    import aiohttp
+ModuleNotFoundError: No module named 'aiohttp'
+[226.055860519] launcher-INFO: Attempting to install dependencies...
+[229987.800836563] launcher-INFO: Ok lets hope it worked
+[229992.802143097] launcher-INFO: All done.
